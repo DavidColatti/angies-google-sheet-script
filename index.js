@@ -1,4 +1,6 @@
-function main(url) {
+function al(id) {
+  var url = "https://member.angieslist.com/gateway/service-provider-profile/v4/service_provider/" + id + "?zipCode=11207&categoryId=77" 
+      
 	var res = UrlFetchApp.fetch(url, {
 		headers: {
 			accept: 'application/json',
